@@ -1,0 +1,7 @@
+git branch
+
+git checkout -b lesson-2
+
+php artisan make:model Question -m
+
+php artisan tinker
