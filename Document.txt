@@ -1,0 +1,18 @@
+laravel new laravel-qa
+
+cd laravel-qa
+git init
+git add -A
+git commit -m 'up code'
+git remote add <ten du an> < link >
+git push < ten du an > master
+
+npm install
+
+php artisan make:auth
+
+mysql -uroot -p -e "CREATE DATABASE laravel_qa"
+
+php artisan migrate or php artisan migrate:fresh
+
+php artisan serve
